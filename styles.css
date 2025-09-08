@@ -1,0 +1,78 @@
+/* Basic Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.tagline {
+    font-style: italic;
+    color: #ddd;
+}
+
+/* Navigation */
+nav {
+    background: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Container Section */
+.container {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border: 2px solid #ddd;
+    box-sizing: border-box; /* Demonstrates the Box Model */
+}
+
+/* Card Section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background: #e2e2e2;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
